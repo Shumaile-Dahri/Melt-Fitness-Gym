@@ -479,9 +479,9 @@ const CTA = () => {
 
 const Footer = () => {
   return (
-    <footer className="bg-luxury-black pt-12 pb-8 border-t border-white/5">
+    <footer className="bg-luxury-black pt-12 pb-6 border-t border-white/5">
       <div className="max-w-7xl mx-auto px-6">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-12">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-8">
           <div className="col-span-1 md:col-span-1">
              <div className="flex items-center gap-2 mb-6">
               <div className="w-8 h-8 bg-brand-orange rounded-lg flex items-center justify-center">
@@ -563,7 +563,7 @@ export default function App() {
     <div className="font-sans relative">
       {/* Background Decorative Glows */}
       <div className="glow-orange top-[-10%] right-[-10%] hidden md:block" />
-      <div className="glow-red bottom-[-10%] left-[-10%] hidden md:block" />
+      <div className="glow-red bottom-[0%] left-[-10%] hidden md:block opacity-5" />
       <div className="glow-orange top-[40%] left-[-20%] scale-75 opacity-5" />
       
       <Navbar />
